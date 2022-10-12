@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.backScene {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(140, 201, 206);
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  width: 1200px;
+  height: 600px;
+  display: flex;
+}
+
+.showBlock {
+  /* width: 70%;
+  height: 100%; */
+  width: 70%;
+  height: 100%;
+  background-image: url(./images/sunny.jpg);
+  margin-top: 20px;
+  color: rgba(240, 255, 255, 0.56);
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 50px;
+  align-self: center;
+  font-size: 24px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.title h4 {
+  padding-left: 100px;
+}
+
+.fullInfo {
+  margin-top: 300px;
+  display: flex;
+}
+
+.fullInfo div {
+  margin: 70px;
+}
+
+.temperature h1 {
+  font-size: 100px;
+}
+
+.cityData {
+  font-size: 20px;
+}
+
+.cityData,
+.weather {
+  padding-top: 10px;
+}
+.cityData h2 {
+  font-size: 46px;
+}
+
+.weather h3 {
+  margin-top: 3px;
+}
+
+.details {
+  width: 30%;
+  background-color: grey;
+  margin-top: 20px;
+  height: 100%;
+}
+
+::placeholder {
+  color: rgb(140, 201, 206);
+  opacity: 0.4;
+}
+
+.searching {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-button {
+  margin-left: 30px;
+}
+
+.searching img {
+  height: 60px;
+  width: 60px;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid rgb(140, 201, 206);
+  background-color: grey;
+  color: rgb(140, 201, 206);
+  font-size: 20px;
+}
+
+.city {
+  width: 90%;
+  height: 40px;
+  padding-left: 30px;
+  color: rgb(140, 201, 206);
+  box-sizing: border-box;
+  border: 1px solid rgba(240, 255, 255, 0.56);
+  margin: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+.data {
+  padding-left: 20px;
+  color: rgb(140, 201, 206);
+}
+
+.data div {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.data span {
+  color: rgba(240, 255, 255, 0.56);
+}
